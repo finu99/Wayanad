@@ -1,0 +1,284 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/prelogin.master.cs" Inherits="prelogin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">
+  <head runat="server" >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Let's Help Wayanad</title>
+    <link rel="icon" href="https://wayanad.gitonline.in/images/icon_butterfly.png" type="image/gif" sizes="16x16">
+    
+     
+    
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+        
+    <!-- Bootstrap -->
+    <link href="https://wayanad.gitonline.in/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://wayanad.gitonline.in/css/style.css" rel="stylesheet">
+    <link href="https://wayanad.gitonline.in/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://wayanad.gitonline.in/css/slider/css/style.css" />
+   	<link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet" type="text/css">
+    
+    <!--FONT-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Basic' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+
+    
+  </head>
+<body>
+
+	<form id="form1" runat="server">
+  	
+  		<div class="clearfix"></div>
+        
+        			<div class="inner-page">
+                                <section class="section_headder">	
+                    <div class="container">
+                        <div>
+                            
+                                <div class="headder " id="hero" >
+                                    <div class="row">
+                                      		<div class="col-sm-2 col-lg-4 col-md-4 col-xs-10">
+                                                <h3 class="logo text-center" style="margin:0;">
+                                                 <a href="https://wayanad.gitonline.in"><img src="https://wayanad.gitonline.in/images/logo_1.png" class="img-responsive"></a>
+                                                </h3>
+                                            </div>
+                                          <div class="col-sm-10 col-lg-8 col-md-8 col-xs-2 ">
+                                                <div class="row">
+                                                    <div class="mobimenu_button">  
+                                                              <button class="nav-toggle">
+                                                                    <div class="icon-menu"> <span class="line line-1"></span> 
+                                                                    <span class="line line-2"></span> <span class="line line-3"></span>
+                                                                    
+                                                                    </div>
+                                                             </button>
+                                                    </div>
+                                                </div>
+    <nav class="nav is-fixed" role="navigation">
+  <div class="wrapper wrapper-flush">
+    
+    <div class="nav-container">
+      <ul class="nav-menu menu">
+      <!-- <li class="menu-item has-dropdown"> <a href="" class="menu-link">HOME</a>
+       <ul class="nav-dropdown menu">
+          <li class="menu-item"> <a href="" class="menu-link">&nbsp;</a> </li>
+          <li class="menu-item has-dropdown"> <a href="" class="menu-link">&nbsp;</a>
+            <ul class="nav-dropdown menu">
+              <li class="menu-item"><a href="" class="menu-link">&nbsp;</a></li>
+              
+            </ul>
+          </li>
+          <li class="menu-item"> <a href="#!" class="menu-link">&nbsp;</a> </li>
+        </ul>
+      </li>-->
+      <li class="menu-item"> <a href="https://wayanad.gitonline.in/home"  class="menu-link">HOME</a> </li>
+      <li class="menu-item"> <a href="https://wayanad.gitonline.in/about"  class="menu-link">ABOUT</a> </li>
+      <li class="menu-item"> <a href="https://wayanad.gitonline.in/rebuildwayanad"  class="menu-link">REBUILD WAYANAD </a> </li>
+      <li class="menu-item"> <a href="#"  class="menu-link">DONATE </a> </li>  
+      <li class="menu-item"> <a href="#" class="menu-link">BLOG </a> </li>
+      <li class="menu-item"> <a href="https://wayanad.gitonline.in/contact" class="menu-link">CONTACT</a> </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+                               
+                               				<!--/*inner menu*/-->
+                                            
+                                            <div class="inner-nav">
+                                            	<ul>
+                                                    <li><a href="https://wayanad.gitonline.in/about">ABOUT  </a></li>
+                                                	<li><a href="https://wayanad.gitonline.in/rebuildwayanad">REBUILD WAYANAD  </a></li>
+                                                    <li><a href="#" >   DONATE   </a></li>                                                    
+                                                    <li><a href="#">  BLOG  </a></li>
+                                                    <li><a href="https://wayanad.gitonline.in/contact">   CONTACT</a></li>                                                 
+                                                </ul>
+                                            </div>
+                                            
+                                            <!--/*end inner menu*/-->
+                                          
+                                          </div>
+                                     </div>
+                                </div>
+                                <!--end headder-->
+                                
+                                
+                    <!-- end main nav -->
+                                
+                    </div>
+                    
+                       
+            </div>           
+                    </section>
+     			 <!-- end headder -->
+      
+       <div class="clearfix"></div>
+      		
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+          
+        
+        	 <!-- end slider inner -->
+        
+  		
+       
+       <!-- end BG slider-->
+        
+      
+     
+        
+        
+        
+       <div class="clearfix"></div>
+                         <section class="section_footer">
+                	<footer>
+                    		<div class="container">
+                            	<div class="footer_top">
+                                    <div class="row">
+                                        <div class="col-lg-10 col-sm-10 col-md-10">
+                                            <nav>
+                                                <ul>
+                                                    <li><a href="https://wayanad.gitonline.in/home"> HOME</a></li>
+                                                    <li><a href="https://wayanad.gitonline.in/rebuildwayanad">REBUILD WAYANAD</a></li>
+                                                    <li><a href="https://wayanad.gitonline.in/about">ABOUT</a></li>
+                                                    <li><a href="#">DONATE </a></li>
+                                                     <li><a href="#">BLOG</a></li>
+                                                     <li><a href="#">FAQ</a></li>
+                                                     <li><a href="https://wayanad.gitonline.in/contact">CONTACT US</a></li>
+
+                                                </ul>
+                                            </nav>
+                                            </div>                                 
+                                    </div>                                    
+                                </div>
+                              	
+                                  
+                                  
+                                
+                            </div>
+                            
+                           		  <div class="footer_bottom">
+                                 			 <div class="container">
+                                             	<div class="row">
+                                                            <div class="col-lg-8">
+                                                                <p style="padding-top: 14px;display:inline-block;" class="text-center">&copy; Copyright 2024.  All rights reserved by Information and Public Relations Department, Government of Kerala</p>
+                                        
+                                                            </div>
+                                                                                                                 <div class="col-lg-2">
+                                                                <div style="text-align:right;padding:10px 0px;"  class="copy-right txt_c" >
+ 
+
+<p style="line-height: 30px;display:inline-block;" >
+Powered by:
+</p>
+                                                  </div>
+                                                                                                                     </div>
+                                             
+                                                            <div class="col-lg-2">
+                                                                <div class="copy-right txt_c" >
+ <a href="http://www.gitonline.in/" target="_blank"><img src="https://wayanad.gitonline.in/images/git.png" alt="" /></a>
+
+                                                  </div>
+                                               </div>
+                                                            
+                                                            
+                                    </div>
+                      </div>
+                                  </div>
+                              <!--end footer top-->
+                            
+                    </footer>
+                
+</section>
+        
+        
+        
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script>
+        $(function () {
+            var html = $('html, body'),
+        navContainer = $('.nav-container'),
+        navToggle = $('.nav-toggle'),
+        navDropdownToggle = $('.has-dropdown');
+
+            // Nav toggle
+            navToggle.on('click', function (e) {
+                var $this = $(this);
+                e.preventDefault();
+                $this.toggleClass('is-active');
+                navContainer.toggleClass('is-visible');
+                html.toggleClass('nav-open');
+            });
+
+            // Nav dropdown toggle
+            navDropdownToggle.on('click', function () {
+                var $this = $(this);
+                $this.toggleClass('is-active').children('ul').toggleClass('is-visible');
+            });
+
+            // Prevent click events from firing on children of navDropdownToggle
+            navDropdownToggle.on('click', '*', function (e) {
+                e.stopPropagation();
+            });
+        });
+</script>
+
+<script type="text/javascript">
+    // scrollFun
+    jQuery.fn.scrollFun = function () {
+        $(this).click(function (e) {
+            var h = $(this).attr('href'),
+		target;
+
+            if (h.charAt(0) == '#' && h.length > 1 && (target = $(h)).length > 0) {
+                var pos = Math.max(target.offset().top, 0);
+                e.preventDefault();
+                $('body,html').animate({
+                    scrollTop: pos
+                }, 'slow', 'swing');
+            }
+        });
+    };
+    $('.scroll').scrollFun();
+</script>
+
+     
+    <!-- <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>  --> 
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://wayanad.gitonline.in/js/bootstrap.min.js"></script>
+    <!--BG slider-->
+<script type="text/javascript" src="https://wayanad.gitonline.in/css/slider/js/jquery.js"></script>
+<script type="text/javascript" src="https://wayanad.gitonline.in/css/slider/js/wowslider.js"></script>
+<script type="text/javascript" src="https://wayanad.gitonline.in/css/slider/js/script.js"></script>
+
+	<!--end slider-->
+    
+
+
+
+
+
+    </form>
+
+</body>
+</html>
