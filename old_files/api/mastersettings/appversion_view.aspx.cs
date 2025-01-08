@@ -19,47 +19,10 @@ public partial class api_country_add : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-       // chk_tocken();
 
         getdata();
     }
 
-    //public void chk_tocken()
-    //{
-    //    CommFuncs CommFuncs = new CommFuncs();
-
-    //    string id = "";
-    //    if (Request.Headers["Authorization"] != null)
-    //    {
-    //        id = CommFuncs.get_tocken_details(Request.Headers["Authorization"].ToString().Replace("Bearer ", ""));
-    //    }
-
-
-    //    if (id == "Oops! Tocken Expired!")
-    //    {
-    //        json = "{'status':false,'Message' :'Oops! Tocken Expired!'}";
-    //        json = json.Replace("'", "\"");
-    //        Response.ContentType = "application/json";
-    //        Response.StatusCode = 403;
-    //        Response.Write(json);
-    //        Response.End();
-    //        return;
-    //    }
-    //    else if (id != "")
-    //    {
-
-    //    }
-    //    else
-    //    {
-    //        json = "{'status':false,'Message' :'Oops! Unauthorised Access!'}";
-    //        json = json.Replace("'", "\"");
-    //        Response.ContentType = "application/json";
-    //        Response.StatusCode = 403;
-    //        Response.Write(json);
-    //        Response.End();
-    //        return;
-    //    }
-    //}
 
     public void getdata()
     {
